@@ -6,3 +6,7 @@ composer.lock
 .idea/
 .DS_Store
 Thumbs.db
+public/assets/vendor
+public/assets/js
+public/assets/css
+node_modules
