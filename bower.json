@@ -1,12 +1,12 @@
 {
-    "name": "laravel-bootrap-sass",
+    "name": "laravel-bootrap-less",
     "version": "7.0.2",
     "license": "MIT",
     "private": true,
     "ignore": [
         "**/.*",
         "node_modules",
-        "assets/vendor"
+        "public/assets/vendor"
     ],
     "dependencies": {
         "modernizr": "2.8.2",
