@@ -24,6 +24,9 @@ $app = new Illuminate\Foundation\Application;
 |
 */
 
+Dotenv::load(__DIR__ .'/../');
+Dotenv::required(array('APP_ENV', 'DB_HOST', 'DB_DATABASE', 'DB_USERNAME', 'DB_PASSWORD'));
+
 $env = $app->detectEnvironment(function()
 {
     return getenv('APP_ENV');

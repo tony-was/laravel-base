@@ -79,6 +79,3 @@ App::down(function()
 */
 
 require app_path().'/filters.php';
-
-Dotenv::load(base_path());
-Dotenv::required(array('APP_ENV', 'DB_HOST', 'DB_DATABASE', 'DB_USERNAME', 'DB_PASSWORD'));
